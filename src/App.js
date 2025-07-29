@@ -15,13 +15,14 @@ import React from 'react';
 import Info from './components/angular/Info';
 import Time from './components/angular/Time';
 import Animal from './components/angular/Animal'*/
-import Res_Info from './components/part-2/Res_info';
-import Log_in from './components/part-2/Log_in';
+/*import Res_Info from './components/part-2/Res_info';
+import Log_in from './components/part-2/Log_in';*/
+
+import TBook from './components/module6/TBook';
 function App() {
   return (
     <div className="App">
-      <Res_Info/>
-      <Log_in/>
+      <TBook/>
     </div>
   );
 }

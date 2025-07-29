@@ -19,10 +19,29 @@ import Animal from './components/angular/Animal'*/
 import Log_in from './components/part-2/Log_in';*/
 
 import TBook from './components/module6/TBook';
+import Newspaper from './components/module7/Newspaper';
 function App() {
   return (
     <div className="App">
-      <TBook/>
+      <Newspaper
+        title="Новини React"
+        author="Олександр Петров"
+        text="Сьогодні ми розглядаємо створення адаптивного компонента..."
+        date="2025-07-29"
+        fontStyles={{
+          fontFamily: 'Georgia',
+          fontSize: '18px',
+          color: '#222'
+        }}
+        backgroundStyles={{
+          article: '#f9fafb',
+          title: '#e0f7fa',
+          image: '#f1f1f1'
+        }}
+        image="https://via.placeholder.com/300"
+        imagePosition="right"
+        titleAlign="left"
+      />
     </div>
   );
 }

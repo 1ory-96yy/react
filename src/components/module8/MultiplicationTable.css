@@ -1,0 +1,11 @@
+.multiplication-table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+.multiplication-table td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+  width: 50px;
+}

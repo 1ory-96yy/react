@@ -57,5 +57,4 @@ function Newspaper({
     </div>
   );
 }
-
 export default Newspaper;

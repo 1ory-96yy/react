@@ -1,0 +1,17 @@
+h2{
+    text-align: center;
+}
+li{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    display:flex;
+    width: 500px;
+    margin: 40px;
+    margin-left: 500px;
+}
+.colm{
+    display:flex;
+    display: table-column;
+    margin:30px;
+}

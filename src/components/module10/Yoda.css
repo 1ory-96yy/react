@@ -1,0 +1,13 @@
+.pereklad{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    display:block;
+    margin: 40px;
+    float: inline-start;
+    background-color:rgb(251, 211, 192);
+    box-shadow: 10px 10px 10px 10px grey;
+    width: 250px;
+    padding: 20px;
+    margin-left: 600px;
+}

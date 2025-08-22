@@ -8,10 +8,32 @@ li{
     display:flex;
     width: 500px;
     margin: 40px;
-    margin-left: 500px;
+    margin-left: 140px;
+    float: inline-start;
+    height: 850px;
+    background-color:rgb(232, 232, 232);
+    box-shadow: 10px 10px 10px 10px grey;
 }
 .colm{
     display:flex;
-    display: table-column;
+    display: block;
     margin:30px;
+}
+.blok{
+    display:flex;
+    display: block;
+    margin:30px;
+}
+.blok2{
+    display:flex;
+    margin:30px;
+}
+img{
+    width: 300px;
+    margin-left: 60px;
+}
+input{
+      margin-left: 480px;
+  width: 500px;
+  height: 25px;
 }

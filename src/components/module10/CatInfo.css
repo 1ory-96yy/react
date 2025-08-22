@@ -1,0 +1,43 @@
+li{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    display:flex;
+    margin: 40px;
+    float: inline-start;
+    background-color:rgb(251, 211, 192);
+    box-shadow: 10px 10px 10px 10px grey;
+    width: 250px;
+    padding: 20px;
+}
+ul{
+    display: grid;
+  grid-template-columns: 320px 320px 320px 320px;
+  grid-template-rows: auto;
+}
+.factlist{
+ margin-left: 675px;
+}
+.currentFact{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    display:flex;
+    margin: 30px;
+    margin-left: 425px;
+    background-color:rgb(255, 226, 213);
+    box-shadow: 10px 10px 10px 10px grey;
+    width: 500px;
+    padding: 20px;
+    display: block;
+
+}
+.CfactText{
+    background-color:white;
+    padding: 10px;
+}
+.GetButton{
+    margin-left: 200px;
+    font-size: 17px;
+    padding: 10px;
+}

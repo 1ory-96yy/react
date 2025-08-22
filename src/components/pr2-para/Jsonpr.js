@@ -5,7 +5,7 @@ export default function Jsonpr(){
 
     const[Users, setUsers]=useState([])
     const[Loading, setLoading]=useState(true)
-
+    const [searchTerm, setSearchTerm] = useState(""); 
 
     useEffect(()=>{
         const ctrl = new AbortController();
@@ -30,15 +30,29 @@ export default function Jsonpr(){
             }
         };
         loadUser();
-
-        return()=>ctrl.abort;
+        return() => ctrl.abort;
     },[]);
+    const filteredUsers = Users.filter((user) => 
+    user.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
     return(<div>
       <h2>Harry Potter characters</h2>
-      <ul style={{ listStyleType: "none", padding: 0 }}>
-        {Users.map((user) => (
+      <input
+        type="text"
+        placeholder="Search character by name"
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+      />
+      
+      <ul>
+        {filteredUsers.map((user) => (
           <li key={user.id}>
+            <div class="blok">
+              <div>
+            <img src = {user.image} alt ="error"/>
+            </div>
+            <div class ="blok2">
             <div class="colm">
             <p><strong>Name:</strong> {user.name}</p>
             <p><strong>race:</strong> {user.species}</p>
@@ -53,9 +67,12 @@ export default function Jsonpr(){
             <p><strong>Hair Colour:</strong> {user.hairColour}</p>
             <p><strong>Actor:</strong> {user.actor}</p>
             </div>
+            </div>
+            </div>
           </li>
         ))}
       </ul>
+      
     </div>
     )
 }

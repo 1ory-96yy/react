@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import Wellcome from './components/Welcome';
+/*import Wellcome from './components/Welcome';
 import Hello_world from './components/Hello_world';
-/* Info from  './components/Info';*/
+Info from  './components/Info';
 import Calculator from './components/Calculator'
 import Calculresult from './components/CalculResult';
-import React from 'react';
+import React from 'react';*/
 
 /*import GetClick from './components/pr-zawdannia-01/GetClick';*/
 /*import GetClick from './components/pr-zawdannia-02/GetClick';*/
@@ -33,18 +33,21 @@ import BlogPost from './components/module-8(dz)/BlogPost';
 import CitiesInfo from './components/module-8(dz)/CitiesInfo';
 import MovieSchedule from './components/module-8(dz)/MovieSchedule';*/
 
-/*import NewUserList from './components/pr-para/NewUserList';
-import Jsonpr from './components/pr-para/Jsonpr';*/
+/*import NewUserList from './components/pr-para/NewUserList';*/
+//import Jsonpr from './components/pr2-para/Jsonpr';
 
-import TrainersApp from './components/module9(lad)/TrainersApp';
-import LibraryApp from './components/module9(dz)/LibraryApp';
+/*import TrainersApp from './components/module9(lad)/TrainersApp';
+import LibraryApp from './components/module9(dz)/LibraryApp';*/
 
-import NewUserList from './components/pr2-para/NewUserList';
+//import NewUserList from './components/pr2-para/NewUserList';
+import CatInfo from './components/module10/CatInfo';
+import Yoda from './components/module10/Yoda';
+
 function App() {
   return (
     <div>
-      <TrainersApp/>
-      <LibraryApp/>
+      <CatInfo/>
+      <Yoda/>
       
     </div>
   );

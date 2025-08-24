@@ -40,15 +40,17 @@ import MovieSchedule from './components/module-8(dz)/MovieSchedule';*/
 import LibraryApp from './components/module9(dz)/LibraryApp';*/
 
 //import NewUserList from './components/pr2-para/NewUserList';
-import CatInfo from './components/module10/CatInfo';
-import Yoda from './components/module10/Yoda';
+//import CatInfo from './components/module10/CatInfo';
+//import Yoda from './components/module10/Yoda';
+
+import Weather from './components/module10/Weather';
 
 function App() {
   return (
     <div>
-      <CatInfo/>
-      <Yoda/>
-      
+      <>
+      <Weather/>
+      </>
     </div>
   );
 }

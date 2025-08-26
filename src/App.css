@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+li{
+  margin-left: 30px;
+  list-style: none;
+}
+ul{
+  display: flex;
+}
+.da{
+  margin-left: 690px;
+}
+.seven{
+    margin-left: 500px;
+}
+.daInfo{
+  margin-left: 570px;
+}
+.sevenInfo{
+  margin-left: 100px;
+}

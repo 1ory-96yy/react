@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -21,7 +22,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -42,6 +43,7 @@ li{
 }
 ul{
   display: flex;
+  margin-left: 575px;
 }
 .da{
   margin-left: 690px;
@@ -54,4 +56,13 @@ ul{
 }
 .sevenInfo{
   margin-left: 100px;
+}
+.city{
+  margin-left: 700px;
+}
+body{
+  background-color: black;
+}
+a{
+  color:white;
 }
